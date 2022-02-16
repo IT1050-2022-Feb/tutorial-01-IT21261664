@@ -5,7 +5,19 @@
 #include <stdio.h>
 
 int main() {
+  int mark1,mark2;
+  float average;
+
+  printf("Enter the mark 1 : ");//prompt
+  scanf("%d", &mark1);//read input
+
+  printf("Enter the mark 2 : ");//prompt
+  scanf("%d", &mark2);//read input
   
+  //calculating the average
+  average = (mark1 + mark2) / 2.0;
+
+  printf("Average mark : %.2f", average);//display average
   return 0;
 }
 
